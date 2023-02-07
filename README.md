@@ -7,14 +7,16 @@ script to map 6 skybox cubemap faces into an equirectangular projection with ffm
 the default size of equirectangular image result is 4 * (cube face width) width.  
 height of equirectangular image is the half of width.  
 
-sky2equi.sh is the main tool  
+`sky2equi.sh` is the main tool  
 
-mattersky2equi.sh is a tool to simplify the conversion for matterport skybox downloaded with https://github.com/fdd4s/matterport-downloader  
+`mattersky2equi.sh` is a tool to simplify the conversion for matterport skybox downloaded with https://github.com/fdd4s/matterport-downloader  
 e.g: to convert all skybox downloaded to a equirectangular:  
 
     $ ls -1 pan*skybox1*jpg | awk ' { print "\"" $0 "\""; } ' | xargs -n 1 ./mattersky2equi.sh  
 
 (both sh scripts and skyboxs must be in the same folder)
+
+`resize_equi.sh` is a tool to resize the equirectangular pano and set exif tags of the new size  
 
 ## Dependencies
 
