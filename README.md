@@ -11,6 +11,7 @@ sky2equi.sh is the main tool
 
 mattersky2equi.sh is a tool to simplify the conversion for matterport skybox downloaded with https://github.com/fdd4s/matterport-downloader  
 e.g: to convert all skybox downloaded to a equirectangular:  
+
     $ ls -1 pan*skybox1*jpg | awk ' { print "\"" $0 "\""; } ' | xargs -n 1 ./mattersky2equi.sh  
 
 (both sh scripts and skyboxs must be in the same folder)
