@@ -54,7 +54,6 @@ https://github.com/google/spatial-media
 
 ## Credits
 
-Created by fdd  
-Send feedback and questions to fdd4776s@gmail.com  
-Support future improvements of this software https://www.buymeacoffee.com/fdd4s  
+Created by fdd4s  
+Send feedback and questions to fc1471789@gmail.com  
 All files are public domain https://unlicense.org/  
