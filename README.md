@@ -1,6 +1,6 @@
 # skybox to equirectangular, a cube2sphere faster alternative
 
-## What does
+## What it does
 
 script to map 6 skybox cubemap faces into an equirectangular projection with ffmpeg v360 filter. This script adds automatically exif tags of 360 equirectangular pano view, this allows to view the pano in viewers like Ricoh Theta https://play.google.com/store/apps/details?id=com.theta360&hl=en&gl=US  
 
