@@ -46,5 +46,5 @@ exiftool -overwrite_original -UsePanoramaViewer=True -ProjectionType=equirectang
 mv "$TMPJ_PATH" "$7"
 
 echo "$7 created"
-echo "Support future improvements of this software https://www.buymeacoffee.com/fdd4s";
+
 
